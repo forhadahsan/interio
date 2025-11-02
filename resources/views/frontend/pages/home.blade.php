@@ -19,22 +19,22 @@
                     </div>
                     <div class="banner-small-imgs">
                         <figure class="mb-0">
-                            <img src="assets/images/banner-small-img1.jpg" alt="banner-small-img1">
+                            <img src="{{  asset('assets/images/banner-small-img1.jpg') }}" alt="banner-small-img1">
                         </figure>
                         <figure class="mb-0">
-                            <img src="assets/images/banner-small-img2.jpg" alt="banner-small-img2">
+                            <img src="{{  asset('assets/images/banner-small-img2.jpg') }}" alt="banner-small-img2">
                         </figure>
                         <figure class="mb-0">
-                            <img src="assets/images/banner-small-img3.jpg" alt="banner-small-img3">
+                            <img src="{{  asset('assets/images/banner-small-img3.jpg') }}" alt="banner-small-img3">
                         </figure>
                     </div>
                 </div>
                 <div class="banner-img-con">
                     <figure class="mb-0">
-                        <img src="assets/images/banner-main-img.jpg" alt="banner-main-img">
+                        <img src="{{  asset('assets/images/banner-main-img.jpg') }}" alt="banner-main-img">
                     </figure>
                     <div class="our-work-btn bottom-arrow">
-                        <a href="#user"><img src="assets/images/bottom-arrow.png" alt="arrow"></a>
+                        <a href="#user"><img src="{{  asset('assets/images/bottom-arrow.png') }}" alt="arrow"></a>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                 <div class="users-details-con wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.3s">
                     <div class="user-detrail-box">
                         <figure>
-                            <img src="assets/images/user-detail-img1.png" alt="user-detail-img1">
+                            <img src="{{  asset('assets/images/user-detail-img1.png') }}" alt="user-detail-img1">
                         </figure>
                         <span class="d-inline-block count">9</span><span class="d-inline-block alphabet">k</span><sup
                             class="d-inline-block align-middle">+</sup>
@@ -62,14 +62,14 @@
                     </div>
                     <div class="user-detrail-box">
                         <figure>
-                            <img src="assets/images/user-detail-img2.png" alt="user-detail-img2">
+                            <img src="{{  asset('assets/images/user-detail-img2.png') }}" alt="user-detail-img2">
                         </figure>
                         <span class="d-inline-block count">98</span><span class="d-inline-block alphabet">%</span>
                         <p>Happy Customers</p>
                     </div>
                     <div class="user-detrail-box">
                         <figure>
-                            <img src="assets/images/user-detail-img3.png" alt="user-detail-img3">
+                            <img src="{{  asset('assets/images/user-detail-img3.png') }}" alt="user-detail-img3">
                         </figure>
                         <span class="d-inline-block count">25</span><sup class="d-inline-block align-middle">+</sup>
                         <p>Professional Architects</p>
@@ -85,7 +85,7 @@
             <div class="home-about-inner-con">
                 <div class="home-about-main-img-con wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
                     <figure class="mb-0">
-                        <img src="assets/images/home-about-main-img.jpg" alt="home-about-main-img">
+                        <img src="{{  asset('assets/images/home-about-main-img.jpg') }}" alt="home-about-main-img">
                     </figure>
                 </div>
                 <div class="home-about-content-con wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.5s">
@@ -101,10 +101,10 @@
                 </div>
                 <div class="home-about-small-imgs-con wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
                     <figure class="home-about-small-img1 mb-0">
-                        <img src="assets/images/home-about-small-img1.jpg" alt="home-about-small-img1">
+                        <img src="{{  asset('assets/images/home-about-small-img1.jpg') }}" alt="home-about-small-img1">
                     </figure>
                     <figure class="home-about-small-img2 mb-0">
-                        <img src="assets/images/home-about-small-img2.jpg" alt="home-about-small-img2">
+                        <img src="{{  asset('assets/images/home-about-small-img2.jpg') }}" alt="home-about-small-img2">
                     </figure>
                 </div>
             </div>
@@ -792,7 +792,7 @@
         </div>
     </section>
     <!-- SUBSCRIPTION SECTION END HERE -->
-   
+
 
 
 

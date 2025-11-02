@@ -4,30 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{  asset('assets/images/favicon/apple-icon-57x57.png') }}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{  asset('assets/images/favicon/apple-icon-60x60.png') }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{  asset('assets/images/favicon/apple-icon-72x72.png') }}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{  asset('assets/images/favicon/apple-icon-76x76.png') }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{  asset('assets/images/favicon/apple-icon-114x114.png') }}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{  asset('assets/images/favicon/apple-icon-120x120.png') }}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{  asset('assets/images/favicon/apple-icon-144x144.png') }}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{  asset('assets/images/favicon/apple-icon-152x152.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{  asset('assets/images/favicon/apple-icon-180x180.png') }}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{  asset('assets/images/favicon/android-icon-192x192.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{  asset('assets/images/favicon/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{  asset('assets/images/favicon/favicon-96x96.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{  asset('assets/images/favicon/favicon-16x16.png') }}">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="{{  asset('ms-icon-144x144.png') }}">
     <meta name="theme-color" content="#ffffff">
     <title>Shared on NULLPHPSCRIPT.COM - Home | Archilux</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
-    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
-    <link rel="stylesheet" href="assets/css/mobile.css">
+    <link rel="stylesheet" href="{{  asset('assets/bootstrap/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{  asset('assets/css/owl.carousel.css') }}">
+    <link rel="stylesheet" href="{{  asset('assets/css/animate.css') }}">
+    <link rel="stylesheet" href="{{  asset('assets/css/custom.css') }}">
+    <link rel="stylesheet" href="{{  asset('assets/css/mobile.css') }}">
 </head>
 
 <body>
@@ -44,7 +44,7 @@
             <nav class="navbar navbar-expand-lg navbar-light p-0">
                 <a class="navbar-brand p-0" href="{{ route('frontend.home') }}">
                     <figure class="mb-0">
-                        <img src="assets/images/header-logo.png" alt="header-logo" loading="lazy">
+                        <img src="{{  asset('assets/images/header-logo.png') }}" alt="header-logo" loading="lazy">
                     </figure>
                 </a>
                 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
@@ -112,10 +112,10 @@
                 <div class="nav-btns d-flex align-items-center">
                     <div class="contact-btn">
                         <figure class="mb-0">
-                            <img src="assets/images/phone-img.png" alt="phone-img">
+                            <img src="{{  asset('assets/images/phone-img.png') }}" alt="phone-img">
                         </figure>
-                        <a href="tel:+568925896325">
-                            +5689 2589 6325
+                        <a href="tel:+01912466718">
+                            +01912466718
                         </a>
                     </div>
                 </div>
