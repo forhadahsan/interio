@@ -15,4 +15,9 @@ class AdminController extends Controller
     {
         return view('admin.pages.about');
     }
+
+    public function adminContact()
+    {
+        return view('admin.pages.contact');
+    }
 }

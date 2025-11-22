@@ -40,12 +40,7 @@ Route::middleware('auth')->group(function () {
 
 Route::get('admin/dashboard', [AdminController::class, 'adminDashboard'])->name('admin.dashboard');
 Route::get('admin/about', [AdminController::class, 'adminAbout'])->name('admin.abouts');
-
-
-
-
-
-
+Route::get('admin/contact', [AdminController::class, 'adminContact'])->name('admin.contacts');
 
 
 
