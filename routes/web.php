@@ -3,13 +3,14 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Homecontroller;
+use App\Http\Controllers\admin\AdminController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 
-Route::get('/index', [Homecontroller::class, 'index'])->name('frontend.home');
+Route::get('/', [Homecontroller::class, 'index'])->name('frontend.home');
 Route::get('/about', [Homecontroller::class, 'about'])->name('frontend.about');
 Route::get('/services', [Homecontroller::class, 'service'])->name('frontend.services');
 Route::get('/contacts', [Homecontroller::class, 'contact'])->name('frontend.contacts');
@@ -33,5 +34,19 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
+
+
+
+
+Route::get('admin/dashboard', [AdminController::class, 'adminDashboard'])->name('admin.dashboard');
+Route::get('admin/about', [AdminController::class, 'adminAbout'])->name('admin.abouts');
+
+
+
+
+
+
+
+
 
 require __DIR__.'/auth.php';
